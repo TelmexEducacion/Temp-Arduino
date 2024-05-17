@@ -1,4 +1,5 @@
 Proyecto de Sensor de Temperatura con LCD
+
 Este proyecto de Arduino utiliza un sensor de temperatura TMP36 para medir la temperatura ambiental y muestra los resultados en una pantalla LCD de 16x2. Es un ejemplo simple de cómo integrar sensores analógicos y dispositivos de visualización en proyectos de Arduino.
 
 Descripción
@@ -30,13 +31,3 @@ VDD -> 5V en Arduino
 V0 (contraste) -> Centro del potenciómetro (los extremos del potenciómetro a 5V y GND)
 A (anodo de retroiluminación) -> 5V en Arduino (puede necesitar una resistencia)
 K (cátodo de retroiluminación) -> GND en Arduino
-
-
-Instrucciones
-Conecte los componentes según las conexiones indicadas.
-Suba el código a su placa Arduino utilizando el IDE de Arduino.
-Observe la temperatura actual mostrada en la pantalla LCD.
-
-Notas
-Este ejemplo asume que está utilizando un sensor TMP36. Si utiliza un sensor diferente, es posible que necesite ajustar la conversión de voltaje a temperatura.
-Asegúrese de que su pantalla LCD está correctamente conectada y ajustada para el mejor contraste utilizando el potenciómetro.
